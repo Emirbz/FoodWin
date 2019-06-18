@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ReservationsProfile">
+
+  <android.support.v7.widget.RecyclerView
+      android:layout_marginTop="10dp"
+      android:id="@+id/profileResRecyclerView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+
+  </android.support.v7.widget.RecyclerView>
+
+  <com.wang.avi.AVLoadingIndicatorView
+      android:id="@+id/progressProfileRes"
+
+      style="@style/AVLoadingIndicatorView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:layout_marginStart="190dp"
+      android:layout_marginTop="50dp"
+
+      android:visibility="visible"
+      app:indicatorColor="@color/colorPrimary" />
+
+  <ImageView
+      android:id="@+id/sadImg5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_gravity="top|center"
+
+      />
+
+  <TextView
+      android:id="@+id/sadText5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+android:layout_marginTop="120dp"
+      android:layout_gravity="top|center"
+      android:alpha="0"
+
+     />
+
+</FrameLayout>

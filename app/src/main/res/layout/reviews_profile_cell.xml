@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="9dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/estabImageRev"
+                android:layout_width="143dp"
+                android:layout_height="92dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitXY"
+
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/estabNameRev"
+
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginStart="16dp"
+                android:text="Hafood"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/estabAddressRev"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/estabAddressRev"
+                android:layout_width="89dp"
+                android:layout_height="17dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/ic_location2"
+                android:text="Ariana Soghra"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="@+id/estabImageRev"
+                app:layout_constraintStart_toStartOf="@+id/estabImageRev" />
+
+
+            <TextView
+                android:id="@+id/estabDateRev"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:drawableStart="@drawable/ic_calendar"
+                android:text="19/06/2019"
+                app:layout_constraintStart_toEndOf="@+id/estabImageRev"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Service :"
+                app:layout_constraintStart_toEndOf="@+id/estabImageRev"
+                app:layout_constraintTop_toBottomOf="@+id/xxxx" />
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/estabServiceRev"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginTop="11dp"
+                android:rating="3"
+                android:theme="@style/RatingBar"
+                app:layout_constraintStart_toEndOf="@+id/xx"
+                app:layout_constraintTop_toBottomOf="@+id/estabQualityRev" />
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/estabQualityRev"
+
+                style="@style/Widget.AppCompat.RatingBar.Small"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:rating="3"
+                android:theme="@style/RatingBar"
+                app:layout_constraintStart_toEndOf="@+id/xxxx"
+                app:layout_constraintTop_toBottomOf="@+id/estabDateRev" />
+
+            <TextView
+                android:id="@+id/xxxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Quality :"
+                app:layout_constraintStart_toEndOf="@+id/estabImageRev"
+                app:layout_constraintTop_toBottomOf="@+id/estabDateRev" />
+
+            <ImageView
+                android:id="@+id/deleteReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_trash"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/estabCommentaireRev"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="49dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/ic_review1"
+                android:maxLength="130"
+                android:maxLines="6"
+                android:text="@string/lorem_ipsum"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/estabImage"
+                app:layout_constraintVertical_bias="0.911" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

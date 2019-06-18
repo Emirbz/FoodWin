@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+    <item
+        android:id="@+id/addEvent"
+        android:icon="@drawable/ic_all_home"
+        android:orderInCategory="100"
+        android:title="Add Event"
+        
+        app:showAsAction="always" />
+    <item
+
+        android:id="@+id/addReview"
+        android:icon="@drawable/ic_all_home"
+        android:orderInCategory="100"
+        android:title="Add Review"
+        app:showAsAction="always" />
+
+    <item
+
+        android:id="@+id/addCheckin"
+        android:icon="@drawable/ic_checkin"
+        android:orderInCategory="100"
+        android:title="Add Review"
+        app:showAsAction="always" />
+
+    <item
+
+        android:id="@+id/addCalendar"
+        android:icon="@drawable/ic_events5"
+        android:orderInCategory="100"
+        android:title="Check events"
+        app:showAsAction="always" />
+
+    <item
+
+        android:id="@+id/addBook"
+        android:icon="@drawable/ic_book"
+        android:orderInCategory="100"
+        android:title="Book a table"
+        app:showAsAction="always" />
+
+
+
+
+</menu>

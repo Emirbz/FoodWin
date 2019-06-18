@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+    <item
+        android:id="@+id/recentReviws"
+        android:icon="@drawable/date"
+        android:orderInCategory="100"
+        android:title="Recent reviews"
+        
+        app:showAsAction="always" />
+    <item
+
+        android:id="@+id/bestReviews"
+        android:icon="@drawable/like"
+        android:orderInCategory="100"
+        android:title="Most rated reviews"
+        app:showAsAction="always" />
+
+
+
+
+
+
+</menu>

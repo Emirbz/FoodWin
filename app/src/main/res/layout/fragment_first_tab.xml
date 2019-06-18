@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.TabContentFragment">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/firstRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <io.supercharge.shimmerlayout.ShimmerLayout
+
+        app:shimmer_animation_duration="600"
+        android:id="@+id/shimmer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="09dp"
+        android:paddingTop="17dp"
+        android:layout_marginStart="6dp"
+        android:paddingRight="10dp"
+        tools:context="io.supercharge.shimmeringlayout.MainActivity">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="199dp">
+
+
+            <View
+
+
+                android:id="@+id/view3"
+                android:layout_width="383dp"
+
+                android:layout_height="150dp"
+                android:background="@color/shimmer_background_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/shimmer_background_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_marginTop="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="199dp">
+
+            <View
+
+
+                android:id="@+id/view4"
+
+                android:layout_width="383dp"
+                android:layout_height="150dp"
+                android:background="@color/shimmer_background_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/shimmer_background_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+
+        </android.support.constraint.ConstraintLayout>
+        <android.support.constraint.ConstraintLayout
+            android:layout_marginTop="440dp"
+            android:layout_width="match_parent"
+            android:layout_height="199dp">
+
+            <View
+
+
+                android:id="@+id/view5"
+                android:layout_width="383dp"
+                android:layout_height="150dp"
+                android:background="@color/shimmer_background_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/shimmer_background_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+</FrameLayout>

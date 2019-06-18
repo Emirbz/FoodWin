@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="myColor">#ff214f</color>
+
+
+
+    <color name="statusBarColor">#303F9F</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="white">#ffffff</color>
+    <color name="blackOverlay">#BF000000</color>
+    <color name="black">#000000</color>
+    <color name="redOverlay">#6F8A0707</color>
+
+    <color name="fb_color">#3b5998</color>
+    <color name="google_color">#d34836</color>
+    <color name="dark_grey">#2c2e33</color>
+
+    <color name="grey">#d8d8d8</color>
+    <color name="seek_blue">#0099e6</color>
+    <color name="seek_orange">#FF7F00</color>
+    <color name="seek_green">#004010</color>
+    <color name="colorPrimary">#ff214f</color>
+    <color name="colorPrimaryDark">#ff214f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryText">#050505</color>
+    <color name="shimmer_background_color">#b1b1b1</color>
+</resources>
+

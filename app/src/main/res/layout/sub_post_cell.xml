@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="295dp"
+    android:id="@+id/parentSub">
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="9dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.like.LikeButton
+                android:id="@+id/like_button1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="5dp"
+                app:icon_size="25dp"
+
+                app:icon_type="thumb"
+                app:layout_constraintBottom_toTopOf="@+id/nbr_likes1"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/nbr_likes1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="0 Likes"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.github.siyamed.shapeimageview.mask.PorterCircularImageView
+                android:id="@+id/subImgUser"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="36dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_profil"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subNameUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="Ben Zineb Amir"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/subImgUser"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="36dp"
+                android:text="made a new post "
+                app:layout_constraintStart_toEndOf="@+id/subNameUser"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/subImgEstab"
+                android:layout_width="128dp"
+                android:layout_height="104dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+
+                android:scaleType="fitXY"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subNameUser" />
+
+            <TextView
+                android:id="@+id/subNameEstab"
+
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+
+                android:text="Hafood"
+                android:textColor="#000"
+
+                android:textSize="18dp"
+                app:layout_constraintStart_toEndOf="@+id/subImgEstab"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+            <TextView
+                android:id="@+id/subAddressEstab"
+
+                android:layout_width="89dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="8dp"
+                android:drawableStart="@drawable/ic_location3"
+                android:text="Ariana Soghra"
+                android:textColor="@color/dark_grey"
+                android:textSize="12dp"
+                app:layout_constraintStart_toEndOf="@+id/subImgEstab"
+                app:layout_constraintTop_toBottomOf="@+id/subNameEstab" />
+
+
+            <TextView
+                android:id="@+id/subTime"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:drawableStart="@drawable/ic_clock"
+                android:text="13:37"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/xx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:text="Service :"
+                app:layout_constraintStart_toEndOf="@+id/subImgEstab"
+                app:layout_constraintTop_toBottomOf="@+id/xxxx" />
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/subServiceEstab"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="11dp"
+                android:rating="3"
+                android:theme="@style/RatingBar"
+                app:layout_constraintStart_toEndOf="@+id/xx"
+                app:layout_constraintTop_toBottomOf="@+id/subQualityEstab" />
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/subQualityEstab"
+
+                style="@style/Widget.AppCompat.RatingBar.Small"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="10dp"
+                android:rating="3"
+                android:theme="@style/RatingBar"
+                app:layout_constraintStart_toEndOf="@+id/xxxx"
+                app:layout_constraintTop_toBottomOf="@+id/subAddressEstab" />
+
+            <TextView
+                android:id="@+id/xxxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:text="Quality :"
+                app:layout_constraintStart_toEndOf="@+id/subImgEstab"
+                app:layout_constraintTop_toBottomOf="@+id/subAddressEstab" />
+
+            <TextView
+                android:id="@+id/subCommentaire"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="49dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+
+                android:maxLength="130"
+                android:maxLines="6"
+                android:text="@string/lorem_ipsum"
+                app:layout_constraintBottom_toTopOf="@+id/like_button1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

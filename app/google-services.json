@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "741606582382",
+    "firebase_url": "https://foodwin-220a8.firebaseio.com",
+    "project_id": "foodwin-220a8",
+    "storage_bucket": "foodwin-220a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741606582382:android:4026705e6a0a2186",
+        "android_client_info": {
+          "package_name": "com.esprit.foodwin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741606582382-j6bhqn2m9pjvtelsf08l58qta3ltm3ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBam5JVhmxmMxb05Y4Jar0uAITlmfJVsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

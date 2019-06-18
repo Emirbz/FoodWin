@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FoodWin</string>
+    <string name="close">CLOSE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="make">Make</string>
+    <string name="make_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="explore">Explore</string>
+    <string name="explore_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="share">Share</string>
+    <string name="share_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="password_error">Password must be more than 6 charaters</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_here_sign_up">New here? Sign Up</string>
+
+    <string name="recent_news">Da Nang International Fireworks Festival 2017</string>
+    <string name="in_news">Da Nang International Fireworks Festival 2017Update: Dec 08, 2016 (TITC) - Da Nang International Fireworks Festival 2017 (DIFF 2017) with the theme “Shining Marble Mountains” will take place for two months, from 29 April to 24 June 2017 with the aim to Da Nang become a unique cultural festival tourism space. </string>
+    <string name="publish_date">2017-04-30 12:13:14</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui. \n\nLorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui.\n\nLorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui. \n\nLorem ipsum dolor sit amet, an sit fugit officiis deserunt, audiam disputando at sit. Eu mel expetenda voluptatibus. Ius no accusam scripserit.\n\n Sea error iracundia ne, duo ne dicat partem sententiae. Nibh admodum facilisi ius in. Ius legere intellegam ei, in zril deserunt qui.At alii audire scripta mea, errem disputando quo in.\n\n Elit vocent legimus cum ei. Eu nonumes eligendi pericula sit. Ceteros omnesque facilisis id vix, at dico choro perpetua est, et dolore oblique vituperata qui.</string>
+    <string name="access_token">pk.eyJ1IjoiZW1pcmJ6IiwiYSI6ImNqcTMwZnY2cTFhM3EzeG11ZDd2YTFxem0ifQ.hEXwLSz0ImRv3D6kfYmusA</string>
+    <string name="selected_place_info">Selected location information:\\n%1$s</string>
+</resources>
